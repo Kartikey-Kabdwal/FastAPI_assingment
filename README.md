@@ -14,7 +14,7 @@ This API provides access to a list of trades, with filtering and search capabili
 1. Clone the repository: `git clone https://github.com/your-username/trade-api.git`
 2. Install the dependencies: `pip install -r requirements.txt`
 3. Start the server: `uvicorn main:app --reload`
-4. Open your web browser and go to [http://localhost:8000](http://localhost:8000) to access the API documentation (provided by Swagger UI).
+4. Open your web browser and go to [http://localhost:8000/docs](http://localhost:8000/docs) to access the API documentation (provided by Swagger UI).
 
 ### Endpoints
 
