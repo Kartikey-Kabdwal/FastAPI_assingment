@@ -148,6 +148,13 @@ async def get_trades_search_filter(
             raise HTTPException(
                 status_code=404, detail="No trades match the tradeType criteria")
 
+    elif minPrice and maxPrice is not None:
+        matching_trades = [
+            trade for trade in matching_trades if trade.trade_details.price >= minPrice and trade.trade_details.price <= maxPrice]
+        if not matching_trades:
+            raise HTTPException(
+                status_code=404, detail="No trades match the range criteria")
+
     elif minPrice is not None:
         matching_trades = [
             trade for trade in matching_trades if trade.trade_details.price >= minPrice]
@@ -188,5 +195,5 @@ def get_trade_by_id(trade_id: str) -> Trade:
 
 
 @app.get("/{path:path}")
-async def invalid_path(path: str):
+async def dont_go_in_invalid_path(path: str):
     return {f"The URL {path} is not valid go to /docs or /trades"}
