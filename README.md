@@ -1,7 +1,8 @@
 # FastAPI_assingment
 
 This API provides access to a list of trades, with filtering and search capabilities.
-
+- #### Live Link ->   [https://backend-api-an5t.onrender.com/docs](https://backend-api-an5t.onrender.com/docs)
+      (it will take some time to open )
 ## Requirements
 
 - Python 3.9 or later
