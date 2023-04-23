@@ -3,9 +3,6 @@ anyascii==0.3.1
 anyio==3.6.2
 appdirs==1.4.4
 APScheduler==3.6.3
-arabic-reshaper==2.1.1
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
 asgiref==3.5.2
 astroid==2.4.2
 astunparse==1.6.3
@@ -19,15 +16,12 @@ certifi==2020.12.5
 cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==2.0.12
-clang==5.0
-clarifai==2.6.2
 click==8.1.3
 cloudinary==1.29.0
 cmake==3.21.3
 colorama==0.4.4
 configparser==3.8.1
 contextlib2==21.6.0
-cryptography==36.0.1
 cvlib==0.2.6
 cycler==0.10.0
 debugpy==1.5.1
@@ -55,7 +49,6 @@ google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 googleapis-common-protos==1.53.0
 grpcio==1.41.0
-guardian==0.2.1
 gunicorn==20.0.4
 h11==0.14.0
 h5py==3.1.0
@@ -87,11 +80,7 @@ MarkupSafe==2.0.1
 matplotlib==3.4.3
 matplotlib-inline==0.1.3
 mccabe==0.6.1
-MeaningCloud-python==2.0.0
-mediapipe==0.8.8.1
 mistune==0.8.4
-mysql-connector-python==8.0.26
-mysqlclient==2.1.1
 nbclient==0.5.9
 nbconvert==6.3.0
 nbformat==5.1.3
@@ -154,7 +143,6 @@ requests==2.10.0
 requests-oauthlib==1.3.1
 rsa==4.7.2
 scipy==1.7.1
-selenium==3.141.0
 Send2Trash==1.8.0
 six==1.15.0
 sniffio==1.3.0
@@ -189,9 +177,7 @@ whitenoise==5.2.0
 widgetsnbextension==3.5.2
 Willow==1.4.1
 wrapt==1.12.1
-xhtml2pdf==0.2.5
 xlrd==2.0.1
-XlsxWriter==3.0.3
 xlwt==1.3.0
 yarg==0.1.9
 youtube-dl==2021.6.6
